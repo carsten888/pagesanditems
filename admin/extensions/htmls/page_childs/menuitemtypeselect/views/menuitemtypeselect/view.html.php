@@ -50,10 +50,6 @@ class PagesAndItemsViewMenuItemTypeSelect extends PagesAndItemsViewDefault
 
 
 		JHTML::_('behavior.tooltip');
-		
-		//include com_menus language for system-menu-types in modal window
-		$lang = &JFactory::getLanguage();
-		$lang->load('com_menus', JPATH_ADMINISTRATOR, null, false);
 
 
 		$pageId = JRequest::getVar( '$pageId', 0);

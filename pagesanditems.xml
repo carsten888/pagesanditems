@@ -26,8 +26,7 @@
 		<menu img="components/com_pagesanditems/media/images/icons/icon-16-pi.png">COM_PAGESANDITEMS</menu>
 		<files folder="admin">
 			<folder>controllers</folder>
-			<folder>css</folder>
-			<folder>elements</folder>
+			<folder>css</folder>			
 
 			<!-- ms: i have rewrite the install routine for the pi extensions so we need not the complete folder extensions -->
 			<!-- <folder>extensions</folder> -->

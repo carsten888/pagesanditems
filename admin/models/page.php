@@ -1249,13 +1249,12 @@ from view/page/view.html.php
 
 	function isGetPagePropertys()
 	{
-		$app = JFactory::getApplication();
 
 		$sub_task = JRequest::getVar( 'sub_task', '');
 
 		$html = '';
 		$this->pageId = PagesAndItemsHelper::getPageId();
-		
+		$app	= JFactory::getApplication();
 		$this->getMenuItem();
 		if(($this->pageId || $sub_task == 'new') && ($this->menuItem )) //|| $this->modelMenu))
 		{
@@ -1280,7 +1279,7 @@ from view/page/view.html.php
 					//$message = JText::_('COM_PAGESANDITEMS_NO_EDIT_PAGE');
 					$app->enqueueMessage(JText::_('COM_PAGESANDITEMS_NO_EDIT_PAGE'), 'notice');
 					
-					$html .= $message;
+					//$html .= $message;
 					
 					return false;
 				}

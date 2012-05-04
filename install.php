@@ -1,13 +1,11 @@
 <?php
 /**
-* @version		2.1.3
-* @package		PagesAndItems
+* @version		2.1.5
+* @package		PagesAndItems com_pagesanditems
 * @copyright	Copyright (C) 2006-2012 Carsten Engel. All rights reserved.
 * @license		http://www.gnu.org/copyleft/gpl.html GNU/GPL
 * @author		www.pages-and-items.com
- * This is the special installer addon created by Andrew Eddie and the team of jXtended.
- * We thank for this cool idea of extending the installation process easily
- */
+*/
 
 // no direct access
 defined('_JEXEC') or die('Restricted access');

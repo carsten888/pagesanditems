@@ -38,7 +38,7 @@ class plgSystemPagesanditems extends JPlugin
 		if (!$app->isAdmin()) 
 		{
 			return;
-		}		
+		}
 		
 		$option = JRequest::getCmd('option');
 		$task = JRequest::getCmd('task');
@@ -102,7 +102,7 @@ class plgSystemPagesanditems extends JPlugin
 		if (!$app->isAdmin()) 
 		{
 			return;
-		}		
+		}
 		
 		$option = JRequest::getCmd('option');
 		$task = JRequest::getCmd('task');
@@ -197,8 +197,7 @@ class plgSystemPagesanditems extends JPlugin
 		$option = JRequest::getVar('option', '', 'get');
 		//$option = '';
 		$view = JRequest::getVar('view', '', 'get');
-		$application = JFactory::getApplication();		
-				
+		$application = JFactory::getApplication();
 		if (!$application->isAdmin())
 		{
 

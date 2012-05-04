@@ -45,7 +45,7 @@ defined('_JEXEC') or die('Restricted access');
 			//echo '</div>';
 
 				//echo $this->getMenuItemTypes();
-			?>			
+			?>
 
 		</div>
 	</fieldset>
