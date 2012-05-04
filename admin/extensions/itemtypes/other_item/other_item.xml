@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.5" type="itemtype" method="upgrade">
+	<name>Other_item (Pages and Items itemtype)</name>
+	<author>Carsten Engel</author>
+	<creationDate>november 2011</creationDate>
+	<copyright>Copyright (C) 2008-2011 Engelweb. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>-</authorEmail>
+	<authorUrl>www.pages-and-items.com</authorUrl>
+	<version>integrated</version>
+	<description>
+		itemtype Other_item (Pages and Items)
+	</description>
+	<files>
+		<filename itemtype="other_item">other_item.php</filename>
+		<filename >index.html</filename>
+	</files>
+</extension>

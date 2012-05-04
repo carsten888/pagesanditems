@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension version="1.5" type="html" folder="page_items" method="upgrade">
+	<name>Archive (Pages and Items Html)</name>
+	<author>Carsten Engel</author>
+	<creationDate>november 2011</creationDate>
+	<copyright>Copyright (C) 2008-2011 Engelweb. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>-</authorEmail>
+	<authorUrl>www.pages-and-items.com</authorUrl>
+	<version>integrated</version>
+	<description>Archive for pageItems in view page in items(Html for the Pages-and-Items framework)</description>
+	<files>
+		<filename html="archive">archive.php</filename>
+		<filename >index.html</filename>
+		<filename >controller.php</filename>
+		<!--
+
+		<folder>controllers</folder>		
+		<folder>language</folder>
+		-->
+		<folder>views</folder>
+	</files>
+	<params>
+	</params>
+
+	<config>
+		<fields name="params">
+
+		</fields>
+	</config>
+</extension>
